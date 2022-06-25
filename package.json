@@ -1,7 +1,7 @@
 {
   "name": "react-exercise-app",
   "version": "0.1.0",
-  "homepage": "https://jamesserra.github.io/",
+  "homepage": "https://jamesserra.github.io/home",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
