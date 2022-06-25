@@ -26,13 +26,13 @@ const NavBar = () => {
           }}
         />
       </Link>
-      <Stack direction="row" gap="40px" fontSize="24px" alightItems="flex-end">
+      <Stack direction="row" gap="40px" fontSize="24px" alignItems="flex-end">
         <Link
           to="/"
           style={{
             textDecoration: "none",
             color: "#3A1212",
-            borderBottom: "3px solid #4169e1",
+            borderBottom: "3px solid #8a2be2",
           }}
         >
           Home
