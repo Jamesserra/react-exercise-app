@@ -11,7 +11,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
     sx={
       bodyPart === item
         ? {
-            borderTop: "4px solid #FF2625",
+            borderTop: "4px solid #8a2be2",
             background: "#fff",
             borderBottomLeftRadius: "20px",
             width: "270px",
@@ -36,8 +36,8 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
     <img src={Icon} alt="dumbbell" style={{ width: "40px", height: "40px" }} />
     <Typography
       fontSize="24px"
-      fontWeight="bold"
-      fontFamily="Alegreya"
+      fontWeight="600"
+      fontFamily="Segoe UI"
       color="#3A1212"
       textTransform="capitalize"
     >

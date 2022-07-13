@@ -13,7 +13,10 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path="/react-exercise-app/" element={<Home />} />
-        <Route path="/exercise/:id" element={<ExerciseDetail />} />
+        <Route
+          path="/react-exercise-app/exercise/:id"
+          element={<ExerciseDetail />}
+        />
       </Routes>
       <Footer />
     </Box>

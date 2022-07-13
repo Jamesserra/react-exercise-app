@@ -22,7 +22,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FF2625;
+  color: #8a2be2;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
@@ -66,7 +66,7 @@ body {
   width: 400px;
   height: 445px;
   background: #fff;
-  border-top: 4px solid #FF2625;
+  border-top: 4px solid #8a2be2;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -84,6 +84,7 @@ body {
 .bodyPart-card {
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
+  font-family: 'Segoe UI'
 }
 
 .exercise-card:hover,
@@ -92,6 +93,10 @@ body {
 }
 
 .input-field > div {
+  border-radius: 15px;
+}
+
+.input-box > button {
   border-radius: 15px;
 }
 
@@ -117,7 +122,8 @@ body {
 
 
   .react-horizontal-scrolling-menu--scroll-container {
-    width: 500px;
+    width: 100%;
+    margin: 0;
   }
 
   .left-arrow,
