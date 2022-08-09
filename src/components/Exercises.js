@@ -45,7 +45,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   return (
     <Box id="exercises" sx={{ mt: { lg: "110px" } }} mt="50px" p="20px">
       <Typography variant="h4" mb="46px" textAlign="center">
-        Showing Results
+        Showing {exercises.length} Results
       </Typography>
       <Stack
         direction="row"
