@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Pagination } from "@mui/material";
 import { Box, Stack, Typography } from "@mui/material";
 import { exerciseOptions, fetchData } from "../utils/fetchData";
-import { AddBox } from "@mui/icons-material";
 import ExerciseCard from "./ExerciseCard";
+import Loader from "./Loader";
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -41,6 +41,8 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     };
     fetchExercisesData();
   }, [bodyPart]);
+
+  if (!currentExercises.length) return <Loader />;
 
   return (
     <Box id="exercises" sx={{ mt: { lg: "110px" } }} mt="50px" p="20px">
